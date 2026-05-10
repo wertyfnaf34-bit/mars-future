@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Колонія на Марсі — майбутнє людства. Архітектура, технології, команда мрії та факти про життя на Червоній планеті.">
+    <meta name="author" content="Морозовський Андрій">
+    <title>Mars Colony 2050 | Життя на Марсі</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23e85d04'/><circle cx='50' cy='50' r='30' fill='%23ffba08'/><text x='50' y='68' font-size='45' text-anchor='middle' fill='%23370617'>🪐</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body data-theme="dark">
+
+    <!-- ==================== ШАПКА / НАВІГАЦІЯ ==================== -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🔴</span>
+                <span class="logo-text">MARS<span class="logo-accent">COLONY</span></span>
+            </div>
+            <nav class="nav">
+                <a href="#mission" class="nav-link">Місія</a>
+                <a href="#base" class="nav-link">База</a>
+                <a href="#team" class="nav-link">Команда</a>
+                <a href="#gallery" class="nav-link">Галерея</a>
+                <a href="#facts" class="nav-link">Факти</a>
+                <a href="#author" class="nav-link">Автор</a>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Змінити тему">
+                <span class="theme-icon-dark">🌙</span>
+                <span class="theme-icon-light">☀️</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==================== ГОЛОВНИЙ ЕКРАН (HERO) ==================== -->
+    <section class="hero">
+        <div class="hero-image"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-badge">🔴 2050 • ОФІЦІЙНА КОЛОНІЯ</div>
+            <h1 class="hero-title">ЛЮДСТВО <span class="gradient-text">ВІДКРИВАЄ</span><br>ЧЕРВОНУ ПЛАНЕТУ</h1>
+            <p class="hero-description">
+                Перша самодостатня колонія на Марсі. Тут живуть, працюють та мріють про зірки. 
+                Досліджуй, як влаштоване життя за 225 мільйонів кілометрів від Землі.
+            </p>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-number">247</span><span class="stat-label">колоністів</span></div>
+                <div class="stat"><span class="stat-number">12</span><span class="stat-label">років успішної роботи</span></div>
+                <div class="stat"><span class="stat-number">99%</span><span class="stat-label">автономності</span></div>
+            </div>
+            <a href="#mission" class="btn-primary">Дослідити колонію →</a>
+        </div>
+    </section>
+
+    <!-- ==================== БЛОК 1: МІСІЯ ==================== -->
+    <section id="mission" class="section mission">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">НАША МЕТА</span>
+                <h2 class="section-title">Місія «Червоний Світанок»</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="mission-grid">
+                <div class="mission-text">
+                    <p>Місія «Червоний Світанок» — це не просто науковий експеримент. Це крок до створення <strong>другого дому для людства</strong>. Колонія забезпечує повний цикл життєдіяльності: від виробництва кисню до вирощування їжі.</p>
+                    <p>Ми будуємо <strong>стале майбутнє</strong>, використовуючи місцеві ресурси Марса. Вода з підлідних озер, сонячна енергія та 3D-друк будівель — наші головні інструменти.</p>
+                    <div class="mission-quote">
+                        «Один маленький крок для колонії — один гігантський стрибок для цивілізації»
+                    </div>
+                </div>
+                <div class="mission-cards">
+                    <div class="mission-card">
+                        <div class="card-icon">🌱</div>
+                        <h3>Землеробство</h3>
+                        <p>Гідропонні ферми на 100% забезпечують колоністів свіжими овочами та зеленню.</p>
+                    </div>
+                    <div class="mission-card">
+                        <div class="card-icon">⚡</div>
+                        <h3>Енергія</h3>
+                        <p>Сонячні батареї + малий ядерний реактор = безперебійне живлення.</p>
+                    </div>
+                    <div class="mission-card">
+                        <div class="card-icon">💧</div>
+                        <h3>Водний цикл</h3>
+                        <p>Система регенерації повертає 98% води з повітря та відходів.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== БЛОК 2: БАЗА ==================== -->
+    <section id="base" class="section base">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ІНФРАСТРУКТУРА</span>
+                <h2 class="section-title">Колонія «Надія»</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="base-grid">
+                <div class="base-item">
+                    <div class="base-icon">🏠</div>
+                    <h3>Житлові модулі</h3>
+                    <p>Герметичні куполи з радіаційним захистом. Кожен модуль розрахований на 50 осіб.</p>
+                </div>
+                <div class="base-item">
+                    <div class="base-icon">🔬</div>
+                    <h3>Науковий центр</h3>
+                    <p>Лабораторії для вивчення геології, біології та клімату Марса.</p>
+                </div>
+                <div class="base-item">
+                    <div class="base-icon">🏭</div>
+                    <h3>Виробництво</h3>
+                    <p>3D-принтери для друку інструментів та запчастин з місцевого реголіту.</p>
+                </div>
+                <div class="base-item">
+                    <div class="base-icon">🌿</div>
+                    <h3>Гідропонна ферма</h3>
+                    <p>Вертикальні ферми продукують до 500 кг овочів на місяць.</p>
+                </div>
+                <div class="base-item">
+                    <div class="base-icon">🏋️</div>
+                    <h3>Медичний блок</h3>
+                    <p>Повноцінна клініка з телемедициною та тренажерами проти атрофії м'язів.</p>
+                </div>
+                <div class="base-item">
+                    <div class="base-icon">📡</div>
+                    <h3>Центр зв'язку</h3>
+                    <p>Лазерний зв'язок із Землею — затримка сигналу лише 3-20 хвилин.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== БЛОК 3: КОМАНДА ==================== -->
+    <section id="team" class="section team">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ОБЛИЧЧЯ ПРОЄКТУ</span>
+                <h2 class="section-title">Команда мрії</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Ірина Волошина" class="team-photo-img" onerror="this.src='https://randomuser.me/api/portraits/women/68.jpg'">
+                    <h3>Ірина Волошина</h3>
+                    <span class="team-role">Капітан місії</span>
+                    <p>Колишня астронавтка NASA, провела 400 днів на МКС. Відповідає за координацію всіх операцій.</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Джеймс Чен" class="team-photo-img" onerror="this.src='https://randomuser.me/api/portraits/men/32.jpg'">
+                    <h3>Джеймс Чен</h3>
+                    <span class="team-role">Головний інженер</span>
+                    <p>Фахівець із систем життєзабезпечення. Розробив унікальну систему регенерації води.</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Аміна Аль-Рашид" class="team-photo-img" onerror="this.src='https://randomuser.me/api/portraits/women/45.jpg'">
+                    <h3>Аміна Аль-Рашид</h3>
+                    <span class="team-role">Астробіолог</span>
+                    <p>Вивчає марсіанський ґрунт та керує гідропонною фермою. Виростила перший помідор на Марсі.</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Марко Россі" class="team-photo-img" onerror="this.src='https://randomuser.me/api/portraits/men/75.jpg'">
+                    <h3>Марко Россі</h3>
+                    <span class="team-role">Лікар колонії</span>
+                    <p>Спеціаліст з екстремальної медицини. Відповідає за фізичне здоров'я колоністів.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== БЛОК 4: ГАЛЕРЕЯ (РЕАЛЬНІ ФОТО МАРСА) ==================== -->
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ВІЗУАЛІЗАЦІЯ</span>
+                <h2 class="section-title">Марс високої роздільної здатності</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png" alt="Поверхня Марса" class="gallery-img" loading="lazy">
+                    <div class="gallery-label">Панорама кратера Гейла</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.cnet.com/a/img/resize/aac85727d869164f5bf70a35a0d1b3282e98b667/hub/2018/06/18/f99b621b-37f0-457e-968d-84a159fd2ca0/curiosityselfie.jpg?auto=webp&fit=crop&height=675&width=1200" alt="Марсохід Curiosity" class="gallery-img" loading="lazy">
+                    <div class="gallery-label">Марсохід Curiosity</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Mars_Valles_Marineris.jpeg/500px-Mars_Valles_Marineris.jpeg" alt="Долини Марінера" class="gallery-img" loading="lazy">
+                    <div class="gallery-label">Долини Марінера</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://lux.fm/uploads/media_news/2019/05/5ccc4cb8c4444570972179.jpg" alt="Марсіанський захід сонця" class="gallery-img" loading="lazy">
+                    <div class="gallery-label">Захід сонця на Марсі</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://discover.in.ua/uploads/illustrations-4/zgaslij-olimp-najvishha-gora-sonjachnoyi-sistemi-vijavilasja-ostrovom.jpg" alt="Олімп" class="gallery-img" loading="lazy">
+                    <div class="gallery-label">Вулкан Олімп (найвища гора Сонячної системи)</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://science.nasa.gov/wp-content/uploads/2023/06/158298main-mro-20060919-browse.jpg?w=717" alt="Марс з орбіти" class="gallery-img" loading="lazy">
+                    <div class="gallery-label">Марс з орбіти (Mars Reconnaissance Orbiter)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- ==================== БЛОК 6: НАУКОВІ ФАКТИ ==================== -->
+    <section id="facts" class="section facts">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ЦИФРИ ТА ФАКТИ</span>
+                <h2 class="section-title">Марс очима науки</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <div class="fact-number">−60°C</div>
+                    <div class="fact-text">Середня температура на Марсі</div>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">225M км</div>
+                    <div class="fact-text">Середня відстань до Землі</div>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">24h 37m</div>
+                    <div class="fact-text">Тривалість марсіанської доби (сол)</div>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">38%</div>
+                    <div class="fact-text">Гравітація відносно земної</div>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">95% CO₂</div>
+                    <div class="fact-text">Склад атмосфери</div>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">6 років</div>
+                    <div class="fact-text">Час польоту в один бік (технології 2050)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== БЛОК 7: ТЕХНОЛОГІЇ ==================== -->
+    <section class="section tech">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ІННОВАЦІЇ</span>
+                <h2 class="section-title">Технології, що роблять життя можливим</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="tech-list">
+                <div class="tech-item">
+                    <span class="tech-icon">💨</span>
+                    <div>
+                        <h4>Електроліз CO₂</h4>
+                        <p>Перетворення вуглекислого газу на кисень для дихання.</p>
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-icon">🧱</span>
+                    <div>
+                        <h4>3D-друк з реголіту</h4>
+                        <p>Будівництво модулів з місцевого марсіанського ґрунту.</p>
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-icon">☢️</span>
+                    <div>
+                        <h4>Мікрореактор Kilopower</h4>
+                        <p>Компактний ядерний реактор для безперебійної енергії.</p>
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-icon">🧥</span>
+                    <div>
+                        <h4>Скафандри 5-го покоління</h4>
+                        <p>Легкі, мобільні, з 8 годинами автономності.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== БЛОК 8: ПРО АВТОРА ==================== -->
+    <section id="author" class="section author">
+        <div class="container">
+            <div class="author-card">
+                <div class="author-avatar">🧑‍💻</div>
+                <div class="author-info">
+                    <h3 class="author-name">Автор проєкту</h3>
+                    <p class="author-title">Студент групи КІ-23 / Вебдизайнер та ентузіаст космосу Андрій Морозовський</p>
+                    <p class="author-bio">
+                        Цей сайт створено в рамках навчального проєкту. Мета — показати, як поєднання науки, 
+                        технологій та людської мрії може створити нову еру для людства. 
+                        Усі зображення — реальні фото Марса від NASA, Mars Reconnaissance Orbiter та марсоходів.
+                    </p>
+                    <div class="author-contact">
+                        <span>✉️ andrijmorosovskij@gmail.com</span>
+                        <span>📅 2026</span>
+                        <span>🔗 GitHub: @wertyfnaf34-bit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ФУТЕР ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">🔴</span>
+                    <span>MARS COLONY PROJECT</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#mission">Місія</a>
+                    <a href="#base">База</a>
+                    <a href="#team">Команда</a>
+                    <a href="#gallery">Галерея</a>
+                    <a href="#facts">Факти</a>
+                    <a href="#author">Автор</a>
+                </div>
+                <div class="footer-copyright">
+                    © 2050 Mars Colony Initiative. Всі права захищено.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+</body>
+</html>
